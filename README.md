@@ -44,6 +44,7 @@ Follow these steps for completing your project.
 
 After a set of interviews with the potential users of the solution, we gathered the following information about the functionality of the game's enhancing system. Your job is to design and build an `enhancer` object that publishes the following methods:
 
+
 - a `success(item)` method that accepts an `item` object and returns a new `item` object modified according to the rules defined by the client for enhancement success.
 - a `fail(item)` method that accepts an `item` object and returns a new `item` object modified according to the rules defined by the client for enhancement failure.
 - a `repair(item)` method that accepts an `item` object and returns a new `item` with the durability restored to 100.
